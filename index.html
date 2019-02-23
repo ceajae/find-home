@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                     
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HOME | Find The Space You Need</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/font/flaticon.css" >
+    <!-- <link href="https://fonts.googleapis.com/css?family=B612|Bree+Serif|Lato" rel="stylesheet"> -->
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="nav-logo">
+                <img src="img/logo.png">
+            </div>
+            <div class="nav-menu">
+                <span class="menu-toggle" >&#9776;</span>
+                <ul class="menu">
+                    <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                    <li><a href="#">For Sale</a></li>
+                    <li><a href="#">For Rent</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li>
+                        <button class="login">Sign Up/Login</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main-header-wrap">
+            <div class="main-header">
+                <h1>Helping you find the space you need</h1>
+            </div>
+            <div class=header-description>
+                <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, adipisci amet minima pariatur excepturi aut ducimus odit mollitia reiciendis officiis,
+                        molestias illo sit ex beatae rerum quidem nulla temporibus suscipit.
+                </p>
+            </div>          
+            <div class="search-wrap">
+                <div class="search-options">
+                    <div>Where do you want to live?</div>
+                    <div> Type </div>
+                    <div>Bedrooms</div>
+                    <div> Max Price </div>
+                    <div>
+                        <span class="flaticon-magnifier"></span>
+                        <span>Search</span>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <section class="sections section-location">
+            <div class="city-wrap">
+                <template id='city-template'>
+                        <div class="city">
+
+                        </div>
+                            
+                </template>
+            </div>
+        </section>
+        <section class="sections section-apartment">
+            <h1>Featured Properties in <span>Lagos</span></h1>
+            <div class="apartments">
+                <template id='apartment-template'>
+                    <div class="apartment-wrap">
+                        <div class="apartment-image">
+                            <img class="image" src="" alt="">
+                        </div>
+                        <div class="apartment-info">
+                            <div class="description">
+                                <div class="cost-location">
+                                    <span class="cost"></span>
+                                    <span class="location"></span>
+                                </div>
+                                <span class="view-property">View Property</span>
+                            </div>
+                            <div class="apartment-facilities">
+                                <span class="beds flaticon-double-king-size-bed"></span>
+                                <span class="baths flaticon-bathtub-with-opened-shower"></span>
+                                <span class="toilets flaticon-bathroom"></span>
+                            </div>
+                        </div>
+                        </div>
+                    
+                    </template>
+            </div>
+         
+        </section>
+
+      
+
+        <section class="sections section-comment ">
+            <h1>What They Say About <span>Us</span></h1>
+            <div class="comments">
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+               
+                <template id='comments-template'>
+                    <div class="comments-wrap">
+                        <div class="author-image-wrap">
+                            <img class="author-image" src="" alt="">
+                        </div>
+                        <div >
+                            <p class="comment"></p>
+                        </div>
+                        <div class="author">                                                                  
+                        </div>
+                    </div>
+                    
+                    
+                </template>
+            </div>
+        </section>
+        <section class="sections section-news">
+            <h1>Latest News From <span>Us</span></h1>
+            <div class="news">
+                    <template id='news-template'>
+                        <div class="news-wrap">
+                            <div class="news-image">
+                                <img class="img" src="" alt="">
+                            </div>
+                            <div class="news-info">
+                                <div class="news-header">                                                                  
+                                </div>
+                                <div class="news-content">
+                                </div>
+                                <div class="read-more-wrap">
+                                    <span class="read-more">Read More</span>
+                                </div>
+                            </div>
+                            </div>
+                        
+                        </template>
+                </div>
+
+        </section>
+        <section></section>
+    </div>
+    <footer class="footer">    
+        <div><h2>Special Hotel Deals and Offers</h2></div>
+        <div class="email-wrap">
+            <p>Enter your email address to receive secret hotel deals</p>
+            <div class="email">
+                <input type="text" placeholder="Enter Email Address">
+                <button type="submit">Subscribe</button>
+            </input>
+            </div>
+            
+        </div>
+    </footer>
+
+    
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
+
+<!-- 
+    * creative title description
+    * google fonts
+ -->
